@@ -19,8 +19,8 @@ from langchain.chains import RetrievalQA
 from rouge_score import rouge_scorer
 
 # --- Config ---
-DEEPSEEK_API_KEY = "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"
-DEEPSEEK_API_BASE = "https://openrouter.ai/api/v1"
+DEEPSEEK_API_KEY = ""
+DEEPSEEK_API_BASE = ""
 DUMP_FILE = "database_dump.txt"
 LOCAL_MODEL_NAME = "tinyllama:1.1b"
 
